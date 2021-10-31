@@ -4,6 +4,10 @@ wait_Time_Str = input("How many hours do you want to wait")
 currentTimeInt = int(currentTime_Str)
 waitTimeInt = int(wait_Time_Str)
 
+'''
+Logic error
+finalTime_int = (currentTimeInt + waitTimeInt) %24
+'''
 finalTime_Int = currentTimeInt + waitTimeInt
 print(finalTime_Int)
 
